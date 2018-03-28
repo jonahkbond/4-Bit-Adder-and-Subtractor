@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Feb 20 11:29:08 2018
+# Process ID: 6496
+# Log file: C:/Users/jonah/Desktop/phys 301/lab number 5/experiment3/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/jonah/Desktop/phys 301/lab number 5/experiment3/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/jonah/Desktop/phys 301/lab number 5/experiment3/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin N3 [get_ports {Ain[3]}]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports {Ain[2]}]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports {Ain[1]}]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports {Ain[0]}]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports {Bin[3]}]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports {Bin[2]}]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports {Bin[1]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {Bin[0]}]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports Cin]
+endgroup
+set_property package_pin "" [get_ports [list  Cout]]
+startgroup
+set_property package_pin M5 [get_ports S0out]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports S1out]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports S2out]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports S3out]
+endgroup
+set_property package_pin "" [get_ports [list  N]]
+startgroup
+set_property package_pin N5 [get_ports Cout]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports N]
+endgroup
+save_constraints

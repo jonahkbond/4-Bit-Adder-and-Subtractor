@@ -1,0 +1,18 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "Ain[3]" LOC = N3;
+NET "Ain[2]" LOC = E2;
+NET "Ain[1]" LOC = F3;
+NET "Ain[0]" LOC = G3;
+NET "Bin[3]" LOC = B4;
+NET "Bin[2]" LOC = K3;
+NET "Bin[1]" LOC = L3;
+NET "Bin[0]" LOC = P11;
+NET "Cin" LOC = A7;
+NET "S0out" LOC = M5;
+NET "S1out" LOC = M11;
+NET "S2out" LOC = P7;
+NET "S3out" LOC = P6;
+NET "Cout" LOC = N5;
+NET "N" LOC = N4;

@@ -1,0 +1,107 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml experiment3.twx experiment3.ncd -o experiment3.twr
+experiment3.pcf -ucf experiment3.ucf
+
+Design file:              experiment3.ncd
+Physical constraint file: experiment3.pcf
+Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Ain<0>         |Cout           |   17.210|
+Ain<0>         |N              |   14.290|
+Ain<0>         |S0out          |    7.673|
+Ain<0>         |S1out          |   15.385|
+Ain<0>         |S2out          |   16.751|
+Ain<0>         |S3out          |   18.176|
+Ain<1>         |Cout           |   16.168|
+Ain<1>         |N              |   13.248|
+Ain<1>         |S1out          |   14.343|
+Ain<1>         |S2out          |   15.709|
+Ain<1>         |S3out          |   17.134|
+Ain<2>         |Cout           |   16.323|
+Ain<2>         |N              |   13.403|
+Ain<2>         |S1out          |   14.498|
+Ain<2>         |S2out          |   15.864|
+Ain<2>         |S3out          |   17.289|
+Ain<3>         |Cout           |   15.093|
+Ain<3>         |N              |   12.173|
+Ain<3>         |S1out          |   13.268|
+Ain<3>         |S2out          |   14.634|
+Ain<3>         |S3out          |   16.059|
+Bin<0>         |Cout           |   17.113|
+Bin<0>         |N              |   14.193|
+Bin<0>         |S0out          |    7.511|
+Bin<0>         |S1out          |   15.288|
+Bin<0>         |S2out          |   16.654|
+Bin<0>         |S3out          |   18.079|
+Bin<1>         |Cout           |   15.726|
+Bin<1>         |N              |   12.806|
+Bin<1>         |S1out          |   13.901|
+Bin<1>         |S2out          |   15.267|
+Bin<1>         |S3out          |   16.692|
+Bin<2>         |Cout           |   16.433|
+Bin<2>         |N              |   13.513|
+Bin<2>         |S1out          |   14.608|
+Bin<2>         |S2out          |   15.974|
+Bin<2>         |S3out          |   17.399|
+Bin<3>         |Cout           |   14.892|
+Bin<3>         |N              |   11.972|
+Bin<3>         |S1out          |   13.067|
+Bin<3>         |S2out          |   14.433|
+Bin<3>         |S3out          |   15.858|
+Cin            |Cout           |   17.086|
+Cin            |N              |   14.166|
+Cin            |S1out          |   15.261|
+Cin            |S2out          |   16.627|
+Cin            |S3out          |   18.052|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Feb 20 11:35:44 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 191 MB
+
+
+

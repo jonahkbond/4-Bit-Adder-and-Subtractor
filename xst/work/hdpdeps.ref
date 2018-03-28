@@ -1,0 +1,17 @@
+V3 12
+FL "C:/Users/jonah/Desktop/phys 301/lab number 5/experiment3/experiment3.vhf" 2018/02/20.11:28:40 P.20131013
+EN work/experiment3 1519154929 \
+      FL "C:/Users/jonah/Desktop/phys 301/lab number 5/experiment3/experiment3.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/experiment3/BEHAVIORAL 1519154930 \
+      FL "C:/Users/jonah/Desktop/phys 301/lab number 5/experiment3/experiment3.vhf" \
+      EN work/experiment3 1519154929 CP FA CP XOR2 CP NOR2 CP GND
+FL "C:/Users/jonah/Desktop/phys 301/lab number 5/experiment3/FA.vhf" 2018/02/20.11:28:40 P.20131013
+EN work/FA 1519154927 \
+      FL "C:/Users/jonah/Desktop/phys 301/lab number 5/experiment3/FA.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FA/BEHAVIORAL 1519154928 \
+      FL "C:/Users/jonah/Desktop/phys 301/lab number 5/experiment3/FA.vhf" \
+      EN work/FA 1519154927 CP XOR2 CP NAND2
