@@ -1,0 +1,1 @@
+This project uses Xilinx PlanAhead 14.7 to create a schematic that implements a 4 bit adder/subtractor. To run this project you need to download Xilinx then click on experiment3.xise. You can also view a screenshot of the schematic by clicking of the included image in this folder.
